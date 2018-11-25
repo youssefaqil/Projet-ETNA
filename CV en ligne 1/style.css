@@ -1,0 +1,276 @@
+body {
+    background: #e65c00;
+    color: #043956;
+    font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    padding: 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section_titre {
+    text-align: center;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: fff;
+    border-radius: 2em;
+    padding: 0 10px;
+    color: #fff;
+    font-family: georgia;
+}
+
+#formation {
+    color: #000;
+}
+
+body,
+ul,
+ol,
+li,
+p,
+a {
+    list-style: none outside none;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+div#page {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*------------ HEADER -----------------*/
+
+#header {
+    height: 210px;
+    margin-top: -30px;
+    padding-top: 6px;
+    width: 980px;
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    margin-left: 0px;
+}
+
+#nav_principal {
+    width: 980px;
+    height: 40px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+#ul_nav_principal {
+    width: 960px;
+    height: 40px;
+    margin-left: 0px;
+    padding: 10px 0px;
+}
+
+.li_nav_principal {
+    float: left;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.li_nav_principal a {
+    color: #fff;
+    margin-right: 80px;
+}
+
+.li_nav_principal:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.li_nav_principal:link {
+    color: #fff;
+    text-decoration: none
+}
+
+.li_nav_principal:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+
+/*------------ BANNIERE---------------*/
+
+#banniere {
+    width: 980px;
+    height: 250px;
+}
+
+#mes_realisations {
+    width: 980px;
+}
+
+.h2_realisations {
+    font-family: georgia;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #9B7C60;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.h2_realisations a {
+    font-family: georgia;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #9B7C60;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+#mes_realisations p {
+    padding: 10px;
+}
+
+.separateur {
+    width: 980px;
+    height: 1px;
+    background: #fff;
+    border-bottom: 1px solid #bbb;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+/*------------ ENTRE NOUS-------------*/
+
+#article_principal {
+    width: 980px;
+    height: 230px;
+    margin: 0px;
+    padding-top: 27px
+}
+
+#besoin_aide {
+    float: left;
+    width: 670px;
+    height: 230px;
+    margin: 0px 30px 0px 0px;
+    color: #fff;
+}
+
+#besoin_aide p {
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.h1_entreNous {
+    font-family: georgia;
+    font-size: 36px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#photo_AJT {
+    float: left;
+    width: 250px;
+    height: 180px;
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 8px #000;
+}
+
+#photo_AJT_cv {
+    float: left;
+    width: 194px;
+    height: 180px;
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 8px #000;
+    position: relative;
+    left: 57px;
+    top: 5px;
+}
+
+
+/*------------ LEFT ------------------*/
+
+#section_left {
+    float: left;
+    width: 250px;
+    min-height: 1070px;
+    background: #f2f2f2;
+    border-right: 2px dotted #e6e6e6;
+    margin-right: 20px
+}
+
+.h2_services {
+    color: #534741;
+}
+
+.li_services {
+    color: #998675;
+    line-height: 30px;
+    list-style: none outside none;
+    position: relative;
+    right: 25px;
+}
+
+.li_services a {
+    color: #998675;
+}
+
+.li_services:link {
+    color: #998675;
+}
+
+.li_services:hover {
+    color: #534741;
+}
+
+.li_services:visited {
+    color: #998675;
+}
+
+
+/*---------- spécial CV ----------*/
+
+.section_cv {
+    background: #fff;
+    padding-top: 20px;
+}
+
+.h2_cv {
+    color: #998675;
+    font-size: 20px;
+    line-height: 7px;
+    padding-left: 14px;
+    margin-left: 20px;
+}
+
+.h3_cv {
+    font-size: 20px;
+    color: #E44C27;
+    margin-left: 100px;
+}
+
+.ul_cv {
+    width: inherit;
+    margin-top: 30px;
+    border-bottom: 10px solid #F15A24
+}
+
+.li_cv {
+    color: #333333;
+    font-size: 13px;
+    line-height: 2px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-left: 100px;
+}
+
+.date {
+    color: #6090FF
+}
